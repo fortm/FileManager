@@ -1,0 +1,10 @@
+spring:
+  redis:
+    database: 1
+    host: localhost
+    port: 32768
+    timeout: 3000
+
+uploadFile:
+  fileSizeThreshold: 200KB
+  maxFileSize: 10MB
